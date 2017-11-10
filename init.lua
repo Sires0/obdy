@@ -11,7 +11,7 @@ minetest.register_craftitem("obdy:table", {
 -- Nodes
 minetest.register_node("obdy:obdy_ore", {
 	description = "Obdy ore",
-	tiles = {"default_stone.png^obdy_ore.png"},
+	tiles = {"[default_desert_stone.png^[colorize#cf7d6788]]^obdy_ore.png"},
 	groups = {obdy = 3},
 	drop = "obdy:obdyshard",
 })
@@ -203,7 +203,7 @@ minetest.register_abm({
 minetest.register_ore({
 	ore_type = "scatter",
 	ore = "obdy:obdy_ore",
-	wherein = "default:stone",
+	wherein = "marssurvive:stone",
 	clust_scarcity = 20*20*20,
 	clust_num_ores = 3,
 	clust_size = 3,
