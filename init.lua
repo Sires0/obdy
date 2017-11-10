@@ -11,7 +11,7 @@ minetest.register_craftitem("obdy:table", {
 -- Nodes
 minetest.register_node("obdy:obdy_ore", {
 	description = "Obdy ore",
-	tiles = {"[default_desert_stone.png^[colorize#cf7d6788]]^obdy_ore.png"},
+	tiles = {"default_desert_stone.png^[colorize:#cf7d6788^obdy_ore.png"},
 	groups = {obdy = 3},
 	drop = "obdy:obdyshard",
 })
