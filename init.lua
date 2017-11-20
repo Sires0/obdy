@@ -191,12 +191,15 @@ minetest.register_craft({
 })
 -- ABM
 minetest.register_abm({
-	nodenames = {"marssurvive:stone_with_diamond"},
-	neighbors = {"default:lava_source"},
+	nodenames = {"marssurvive:stone_with_diamond", "default:diamondblock"},
 	interval = 120,
 	chance = 10,
 	action = function(pos)
-		minetest.set_node(pos, {name = "obdy:obdymegablock"})
+        pos2 = {x = pos.x, y = pos.y + 1, z = pos.z}
+        if minetest.get_node(pos2).name == "default:lava_source" then
+		    minetest.set_node(pos, {name = "obdy:obdyblock"})
+            minetest.set_node(pos2, {name = "air"})
+        end
 	end,
 })
 -- Ore
