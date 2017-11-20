@@ -191,7 +191,7 @@ minetest.register_craft({
 })
 -- ABM
 minetest.register_abm({
-	nodenames = {"default:stone_with_diamond"},
+	nodenames = {"marssurvive:stone_with_diamond"},
 	neighbors = {"default:lava_source"},
 	interval = 120,
 	chance = 10,
