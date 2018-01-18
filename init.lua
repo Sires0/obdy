@@ -142,7 +142,7 @@ minetest.register_craft({
 	},
 })
 minetest.register_craft({
-	output = "obdy:obdyblockreinforced 2",
+	output = "obdy:obdyblockreinforced",
 	recipe = {
 		{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
 		{"default:steel_ingot", "obdy:obdyshard", "obdy:obdyshard"},
@@ -150,7 +150,7 @@ minetest.register_craft({
 	},
 })
 minetest.register_craft({
-	output = "obdy:obdyblock 2",
+	output = "obdy:obdyblock",
 	recipe = {
 		{"", "", ""},
 		{"", "obdy:obdyshard", "obdy:obdyshard"},
