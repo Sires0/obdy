@@ -1,2 +1,2 @@
-# obdyminetestmod
-The github of the obdy mod(in the minetest game)
+# Obdy
+Have some very OP tools :)
