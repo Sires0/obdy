@@ -204,7 +204,7 @@ minetest.register_ore({
 	ore_type = "scatter",
 	ore = "obdy:obdy_ore",
 	wherein = "default:stone",
-	clust_scarcity = 40*40*40
+	clust_scarcity = 40*40*40,
 	clust_num_ores = 3,
 	clust_size = 3,
 	height_max = -1024,
