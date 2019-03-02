@@ -99,7 +99,7 @@ minetest.register_craft({
 	output = "obdy:table",
 	recipe = {
 		{"", "", ""},
-		{"default:obsidian", "default:diamondblock", "diamondblock"},
+		{"default:obsidian", "default:diamondblock", "default:diamondblock"},
 		{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
 	},
 })
